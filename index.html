@@ -46,14 +46,8 @@
 					</p>
 				</section>
 
-				<section data-transition="linear" data-background="#34495e" data-background-transition="slide">
-					<img src="./images/img/brucelee.jpg">
-					<blockquote>
-						"When there is freedom from mechanical conditioning, there is simplicity. The classical man is just a bundle of routine, ideas and tradition. If you follow the classical pattern, you are understanding the routine, the tradition, the shadow - you are not understanding yourself." - Bruce Lee
-					</blockquote>
 
-				</section>
-				<section>
+				<section data-background="#34495e" data-background-transition="slide">
 					<img src="./images/sicp.png" width="150%" alt="SICP"><blockquote>
 						“When you don’t know what you believe, everything becomes an argument. Everything is debatable. But when you stand for something, decisions are obvious.” 
 ― Jason Fried, Rework
@@ -67,9 +61,9 @@
       		<td style="vertical-align: top;">
       		<ul>
       		  <li class="slide">JavaScript Interpretation and Memory Model</li>
-	          <li class="slide">Compilation and Lexical Scope</li>
+	          <li class="slide">Compilation and Variable Hoisting</li>
 	          <li class="slide">Function Execution</li>
-	          <li class="slide">Scope Chains</li>
+	          <li class="slide">Scope Chains and Closure</li>
 	          <li class="slide">JavaScript Runtime and Event loop</li>
 	          <li class="slide">Async Examples</li>
 	          <li class="slide">Single Threaded parallel execution</li>
@@ -82,32 +76,6 @@
       </table>    
     </section>
 
-				<!-- Example of nested vertical slides -->
-				<section>
-					<h2>Some Gotchas</h2>
-					<p>Java &ne; JavaScript</p>
-					<img src="images/ham.png" alt="">
-
-					<p>Just like <br/>
-						Ham &ne; Hamburger</p>
-
-				</section>
-				<section>
-					<h2>JavaScript Base Concepts</h2>
-					<ul>
-						<li>JavaScript reads top to bottom and runs to completion.</li>
-						<li>Everything is extensible and almost everything in JavaScript is mutable.</li>
-						<li>JavaScript is functional language with closures and lamda expressions inherited from Scheme.</li>
-						<li>It is also prototypal language with objects inheriting from objects directly (inheriting this nature from Self.)</li>
-						<li>Scopes can be created only using functions (functional scope) and all variables defined in a scope are hoisted to the top of the scope.</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>JavaScript Types</h2>
-					<img src="images/js_types.png" alt="Data Types">
-					<p>No strong typing</p>
-				</section>
 
 
 				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
@@ -133,13 +101,13 @@
 				</section>
 
 				<section>
-					<h3>Compilation and Execution: Part 3</h3>
+					<h3>Variable Hoisting</h3>
 					<img src="images/scope_chain3.png" alt="">
 
 				</section>
 
 				<section>
-					<h3>Compilation and Execution: Part 4</h3>
+					<h3>Variable Shadowing</h3>
 					<img src="images/scope_chain4.png" alt="">
 
 				</section>
@@ -151,7 +119,7 @@
 
 				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
 					<h2>Closures</h2>
-					<p>What happens when a function is executed outside of it's original scope chains? Moreover, what happens when a variable holds on to a function reference which get's defined in such deep function execution chain.</p>
+					<p>What happens when a function is executed outside of it's original scope chains? </p><p>Moreover, what happens when a variable holds on to a function reference which get's defined in such deep function execution chain.</p>
 				</section>
 
 				<section>
@@ -221,10 +189,10 @@ var adder3 = makeAdder(3);
 
 				<section data-transition="linear" data-background="#34495e" data-background-transition="slide">
 					<h2>Questions?</h2>
+					<img src="./images/img/brucelee.jpg">
 					<blockquote>
-						"When your syntax is more beautiful, you can let the reader of your code get past the syntax and closer to the intentions"
+						"When there is freedom from mechanical conditioning, there is simplicity. The classical man is just a bundle of routine, ideas and tradition. If you follow the classical pattern, you are understanding the routine, the tradition, the shadow - you are not understanding yourself." - Bruce Lee
 					</blockquote>
-					<img src="./images/gifs/ask.gif" width="600" alt="Question">
 
 				</section>
 			</div>
