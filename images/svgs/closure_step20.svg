@@ -63,7 +63,7 @@
      showborder="true"
      inkscape:window-width="1920"
      inkscape:window-height="1021"
-     inkscape:window-x="1600"
+     inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
@@ -618,5 +618,28 @@
          id="tspan5101"
          x="983.72614"
          y="583.65137">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28.94635390999999913px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="433.56818"
+       y="930.41858"
+       id="text3077"
+       sodipodi:linespacing="125%"
+       transform="scale(0.95291223,1.0494146)"><tspan
+         sodipodi:role="line"
+         id="tspan3079"
+         x="433.56818"
+         y="930.41858">// Variable Shadowing: Note that, from g()</tspan><tspan
+         sodipodi:role="line"
+         x="433.56818"
+         y="966.6015"
+         id="tspan3081">    there is not way to access &quot;e&quot; of outer scope f()</tspan></text>
+    <rect
+       style="fill:#008000;opacity:0.65"
+       id="rect3083"
+       width="156.57365"
+       height="20.203053"
+       x="482.85294"
+       y="837.19971" />
   </g>
 </svg>
